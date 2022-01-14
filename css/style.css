@@ -1062,10 +1062,6 @@ flex: 1;
     display: flex;
     flex-direction: column;
 }
-.skills .container .progress .progress .prog
-{
-
-}
 .skills .container .progress .prog h3
 {
     display: flex;
@@ -1082,6 +1078,10 @@ flex: 1;
     padding: 5px;
     color: var(--main-color);
 }
+.skills .container .span
+{
+    transition: 2s;
+}
 .skills .container .progress .prog .line
 {
     height: 30px;
@@ -1096,6 +1096,7 @@ flex: 1;
     top: 0;
     height: 100%;
     background-color: var(--main-color);
+    transition: .5s
 }
 
 /* End skilld */
